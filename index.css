@@ -1,0 +1,114 @@
+/*CSS Reset*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: DM Sans, sans-serif;
+}
+
+#logo {
+	font-family: DM Sans;
+	font-weight: 600;
+}
+
+/*Navigation Bar*/
+
+#nav {
+	background: rgba(0, 0, 0, 0.8);
+}
+
+#nav a{
+	font-family: DM Sans;
+	font-size: 16px;
+	color: #151515;
+}
+
+/*Landing*/
+
+#landing {
+	max-width: 100%;
+	height: 810px;
+
+	background: linear-gradient(rgba(200, 200, 200, 0.60)
+	,rgba(200, 200, 200, 0.60)), url(./images/hero-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+	align-content: center;
+}
+
+#landing figure img {
+	height: 240px;
+	width: auto;
+}
+
+/*Projects*/
+
+#projects {
+	padding-top: 64px;
+	padding-bottom: 64px;
+
+}
+
+#work-img {
+	height: 400px;
+	width: auto;
+}
+
+.card {
+	width: 24rem;
+}
+
+/*Tools*/
+
+#tools {
+	padding-top: 64px;
+	padding-bottom: 64px;
+	background: #151515;
+	color: #f5f5f5;
+}
+
+#tool-img {
+        width: 64px;
+        height: 64px;
+        display: flex;
+    }
+
+/*Contact*/
+
+#contact {
+	background: #3d3d3d;
+	color: #f5f5f5;
+}
+
+#contact-link{
+	height: 48px;
+	width: auto;
+	padding-left: 1rem;
+	padding-right: 2rem;
+}
+
+#contact-img {
+	background: url("images/hero-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#form-btn {
+	background: white;
+	font-family: DM Sans;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #151515;
+	border-radius: 40px;
+}
+
+/*Text styling*/
+
+h1, h2 {
+	font-family: DM Serif, serif;
+	font-weight: 600;
+}
+
